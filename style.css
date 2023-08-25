@@ -1,0 +1,101 @@
+html {
+    font-family: sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+/* main{
+    background-color: skyblue;
+} */
+
+.types{
+    background-color: aqua;
+}
+
+.types h1{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.labels{
+    background-color: blueviolet;
+    display: block;
+    margin: 10px;
+    padding: 10px 10px 10px 20px;
+
+}
+
+.button{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.button button{
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.details{
+    background-color: aquamarine;
+}
+
+.details h1{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.details ul {
+    margin: 10px;
+    padding:0;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:.5rem;
+
+    align-items:start;
+}
+
+.details ul div {
+    padding:.5rem;
+    background-color:blueviolet;
+    border-radius:.25rem;
+}
+.details ul div h2{
+    margin: 5px;
+    text-align: center;
+   
+}
+
+.details ul div li{
+
+    list-style-type:none;
+    margin: 5px;
+    padding: 5px;
+    
+   
+}
+
+.subType h1{
+    margin: 20px;
+    padding: 10px;
+}
+
+.subType form label input{
+    margin: 10px;
+    
+}
+.subType form label{
+    margin: 10px 10px 10px 30px;
+    
+}
+.subType form button{
+    display: block;
+    margin: 10px 10px 10px 30px;
+    
+}
